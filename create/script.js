@@ -16,7 +16,7 @@ for (let i = copy_table.length - 1; i > 0; i--) {
     [copy_table[i], copy_table[j]] = [copy_table[j], copy_table[i]]; // Échange les éléments
 }
 
-console.log(copy_table); // Affiche le tableau mélangé
+// console.log(copy_table); // debug
 
 
 //randome color returned en rgb.
